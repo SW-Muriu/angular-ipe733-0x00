@@ -29,9 +29,11 @@ ngOnInit(): void {
     //Find the product that corresponds with the Id provided in route
     this.product = products.find(product => product.id === productIdFromRoute)
 }
-  /* ...*/
+
+/* ...*/
 
 }
+
 
 
 
